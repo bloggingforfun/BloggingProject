@@ -1,4 +1,4 @@
-@import url('../css/fonts.css');
+@import url('./css/fonts.css');
 
 html,body{
     margin: 0%;
@@ -144,7 +144,7 @@ p{
 /*---------------------Main Content---------------------*/
 /*---------------Site Title--------------*/
 main .site-title{
-    background: url('../Assets/Background-image.png');
+    background: url('./Assets/Background-image.png');
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -170,7 +170,7 @@ main .site-title .btn:hover{
 /*-----------x---Site Tite---x----------*/
 /*----------------Blog Carousel-----------*/
 main .blog{
-    background: url('../Assets/Abract01.png');
+    background: url('./Assets/Abract01.png');
     background-repeat: no-repeat;
     background-position: right;
     height: 90vh;
