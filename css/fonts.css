@@ -1,0 +1,25 @@
+/* font-family: Merriweather */
+@font-face{
+    font-family: Merriweather;
+    src: url(../AFonts/Merriweather/Merriweather-Black.ttf);
+}
+/* font-family: Bungee_Inline */
+@font-face{
+    font-family: Bungee_Inline;
+    src: url(../AFonts/Bungee_Inline/BungeeInline-Regular.ttf);
+}
+/* font-family: Catamaran */
+@font-face{
+    font-family: Catamaran;
+    src: url(../AFonts/Catamaran/static/Catamaran-Black.ttf);
+}
+/* font-family: Dosis */
+@font-face{
+    font-family: Dosis;
+    src: url(../AFonts/Dosis/static/Dosis-Medium.ttf);
+}
+/* font-family: Work_Sans */
+@font-face{
+    font-family: Work_Sans;
+    src: url(../AFonts/Work_Sans/static/WorkSans-Black.ttf);
+}
