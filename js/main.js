@@ -40,7 +40,12 @@ $(document).ready(function(){
         $('html,body').animate({
         scrollTop:0
         },1000)
-        
+    //Scrolling down from top command
+    })
+    $('.move-down span').click(function(){
+        $('html,body').animate({
+        scrollMiddle:0
+        },1000)
     })
     AOS.init();
 
