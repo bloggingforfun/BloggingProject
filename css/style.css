@@ -167,6 +167,18 @@ main .site-title .btn:hover{
     border: 1px ridge royalblue;
     color:silver;
 }
+main .move-down{
+    position: absolute;
+    right: 6%;
+    top: 90%;
+}
+main .move-down span{
+    color: white;
+}
+main .move-down span:hover{
+    color:#a6c1ee;
+    cursor: pointer;
+}
 /*-----------x---Site Tite---x----------*/
 /*----------------Blog Carousel-----------*/
 main .blog{
