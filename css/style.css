@@ -73,7 +73,7 @@ html,body{
     padding: 0 2rem;
     position: relative;
     height: 0rem;
-    min-height: 10vh;
+    min-height: 9vh;
     overflow-y: hidden;
     transition: height 1s cubic-bezier(0.26,-0.01,0,1.01);
 }
@@ -98,7 +98,7 @@ html,body{
     color: var(--charcoal);
 }
 .collapse{
-    height: 35rem;
+    height: 30rem;
 }
 .nav .nav-items{
     display: flex;
@@ -120,7 +120,7 @@ html,body{
 }
 .nav .nav-brand a{
     font-size: 1.2rem;
-    padding: 0.5rem 0;
+    padding: 0.7rem 0;
     display: block;
     font-family: var(--Bungee);
 }
