@@ -4,6 +4,7 @@ html,body{
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
+    
 }
 
 
@@ -49,6 +50,9 @@ html,body{
     h3{
         font-family: var(--Bungee);
         font-size: 0.9rem;
+    }
+    h4{
+        text-align: start;
     }
     button.btn{
         border: none;
@@ -139,6 +143,102 @@ html,body{
 p{
     font-family:var(--Catamaran);
     color: lightgrey;
+}
+
+  .IconButton {
+    width: 56px;
+    height: 56px;
+    appearance: none;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 0;
+    position: fixed;
+    transition: background-color 200ms ease-out;
+  }
+  
+  .IconButton:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  .btn-size{
+      height: 25px;
+      width: 25px;
+  }
+  .IconButton::before {
+    /* Positioning related code */
+    content: "";
+    display: block;
+    width: 50%;
+    height: 50%;
+    pointer-events: none;
+  
+    /* this allows optical centering if required */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  
+    /* Masking code */
+    /*mask-image: var(--icon);*/
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+  }
+* {box-sizing: border-box;}
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  padding-bottom: 0px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=Problem] {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container {
+  background-color: #8f8f8f;
+  color: white;
+  padding: 60px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:0px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
 }
 /*--------x----------navbar----------x-------*/
 /*---------------------Main Content---------------------*/
